@@ -6,7 +6,19 @@ html {
 
 body {
   margin: 0;
-  background: $clr-grey-5;
+  background: #E07371;
+  animation: bganimation 30s infinite;
+  //rgb(201, 213, 212)
+  // 	213, 201, 202
+}
+
+@keyframes bganimation {
+  0% {background: #E07371;}
+  12.5% {background: #F5DEB3;}
+  37.5% {background: #7AAE9C;}
+  62.5%{background: #67ABB7;}
+  87.5% {background: #E8D5F1;}
+  100% {background: #E07371;}
 }
 
 * {
@@ -15,22 +27,21 @@ body {
 
 h1 {
   font-weight: 500;
-  color: #FBFFA7;
-  font-size: $fs-xl;
 }
 
 p {
   font-size: $fs-s;
-  color: $clr-grey-0;
-  font-size: $fs-xl;
+  color: #410807;
+  font-size: $fs-s;
 }
 
 a {
-  color: $clr-grey-0;
+  color: #410807;
   font-size: $fs-s;
   text-decoration: none;
-}
 
-a.current {
-  color: $clr-primary-3;
+  &.current {
+    color: #410807;
+    font-weight: bold;
+  }
 }
