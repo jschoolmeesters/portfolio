@@ -1,0 +1,20 @@
+.intro-wrapper {
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+  padding: 10vh 5vw;
+
+  p {
+    font-size: $fs-ml;
+    color: #fff;
+
+    a {
+      color: #fff;
+      font-size: $fs-ml;
+      border-bottom: 2px solid #fff;
+      &:hover {
+        border-bottom: 2px dashed #fff;
+      }
+    }
+  }
+}

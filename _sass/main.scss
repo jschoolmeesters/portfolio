@@ -1,3 +1,17 @@
-.current {
-  color: green;
+@import 'abstracts/colors';
+@import 'abstracts/variables';
+
+@import 'components/nav';
+
+@import 'layouts/main';
+@import 'layouts/page';
+
+@import 'pages/index';
+
+@import 'theme/base';
+
+@font-face {
+  font-family: 'futura';
+  font-style: normal;
+  src: local('futura'), url('../fonts/futura.otf') format('opentype');
 }

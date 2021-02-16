@@ -1,0 +1,14 @@
+.current {
+  color: $clr-primary-3;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.25rem;
+  height: 1.25rem;
+
+  a {
+    margin-left: 2.5rem;
+  }
+}

@@ -1,0 +1,36 @@
+html {
+  font-size: 100%;
+  color: $clr-grey-0;
+  font-family: 'futura', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: $clr-grey-5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 500;
+  color: #FBFFA7;
+  font-size: $fs-xl;
+}
+
+p {
+  font-size: $fs-s;
+  color: $clr-grey-0;
+  font-size: $fs-xl;
+}
+
+a {
+  color: $clr-grey-0;
+  font-size: $fs-s;
+  text-decoration: none;
+}
+
+a.current {
+  color: $clr-primary-3;
+}

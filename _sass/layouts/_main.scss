@@ -1,0 +1,11 @@
+.main {
+  background: #fff;
+  padding-top: 1.25rem;
+}
+
+@media (min-width: 1600px) {
+  .main {
+    max-width: 100rem;
+    margin: 0 auto;
+  }
+}

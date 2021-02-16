@@ -2,5 +2,7 @@
 layout: default
 title: Home
 ---
-<h1>Hi there, my name is Jordy Schoolmeesters.</h1>
-<p>I'm a Computing Science student interested in web security and machine learning. Currently working parttime as a Software Developer at Archive-It.</p>
+<div class="intro-wrapper">
+  <h1>Hi there, I'm Jordy Schoolmeesters.</h1>
+  <p>A Computing Science student interested in web security and machine learning.<br>Currently working parttime as a Software Developer at <a>Archive-It</a>.</p>
+</div>
