@@ -2,3 +2,46 @@
   color: #410807;
   font-family: 'Epilogue', sans-serif;
 }
+
+.home-section {
+  display: table;
+  width: 100%;
+  margin-top: 10rem;
+
+  @include e('title') {
+    display: table-row;
+    width: 100%;
+    padding: 0;
+
+    h2 {
+      margin-top: 0;
+    }
+  }
+  @include e('paragraph') {
+    display: table-row;
+    vertical-align: top;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+
+    p {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .home-section {
+    @include e('title') {
+      display: table-cell;
+      width: 30%;
+      padding-right: 10rem;
+    }
+    @include e('paragraph') {
+      display: table-cell;
+      width: 30%;
+      padding-right: 10rem;
+      max-width: 20rem;
+    }
+  }
+}

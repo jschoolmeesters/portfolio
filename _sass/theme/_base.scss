@@ -1,15 +1,14 @@
 html {
   font-size: 100%;
   color: $clr-grey-0;
-  font-family: 'futura', sans-serif;
+  font-family: 'Epilogue', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   background: #E07371;
   animation: bganimation 30s infinite;
-  //rgb(201, 213, 212)
-  // 	213, 201, 202
 }
 
 @keyframes bganimation {
@@ -21,12 +20,27 @@ body {
   100% {background: #E07371;}
 }
 
+@keyframes coloranimation {
+  0% {color: #E07371;}
+  12.5% {color: #F5DEB3;}
+  37.5% {color: #7AAE9C;}
+  62.5%{color: #67ABB7;}
+  87.5% {color: #E8D5F1;}
+  100% {color: #E07371;}
+}
+
 * {
   box-sizing: border-box;
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: $fs-l;
+  color: #410807;
 }
 
 p {
@@ -42,6 +56,16 @@ a {
 
   &.current {
     color: #410807;
+    font-weight: bold;
+  }
+
+  &.contact {
+    background: #410807;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0 0 1.2rem 1.2rem;
+    animation: coloranimation 30s infinite;
+    float: right;
+    margin-right: 2.5rem;
     font-weight: bold;
   }
 }
