@@ -1,6 +1,25 @@
 .stretch {
   color: #410807;
   font-family: 'Space Grotesk', sans-serif;
+
+  &.desktop {
+    height: 0;
+    display: none !important;
+  }
+
+  &.mobile {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 700px) {
+  .stretch.desktop {
+    display: inline-block !important;
+  }
+  .stretch.mobile {
+    height: 0;
+    display: none !important;
+  }
 }
 
 .home-section {

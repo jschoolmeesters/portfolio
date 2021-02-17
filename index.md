@@ -4,12 +4,22 @@ title: Home
 ---
 
 <div class="stretch-wrapper rellax" data-rellax-speed="10">
-  <div class="stretch">
+  <div class="stretch desktop">
   Hello! I'm Jordy.<br>I have a passion for<br> web security, and enjoy<br>solving difficult problems<br>using creative strategies.
+  </div>
+  <div class="stretch mobile">
+  Hello! I'm Jordy.<br>
+  I have a passion<br>
+  for web security,<br>
+  and enjoy solving<br>
+  difficult problems<br>
+  using creative<br>
+  strategies.
   </div>
 </div>
 
 <div class="wrapper rellax" data-rellax-speed="6">
+  <p class="text">WELCOME! FEEL FREE TO LOOK AROUND...&nbsp;</p>
   <p class="text">WELCOME! FEEL FREE TO LOOK AROUND...&nbsp;</p>
   <p class="text">WELCOME! FEEL FREE TO LOOK AROUND...&nbsp;</p>
 </div>
@@ -37,10 +47,17 @@ title: Home
 </div>
 
 <div class="stretch-wrapper rellax" data-rellax-speed="0">
-  <div class="stretch">
+  <div class="stretch desktop">
   Let's get in touch!<br>
   If you have a project<br>
   that you think I could<br>
+  help with, hit me up.
+  </div>
+  <div class="stretch mobile">
+  Let's get in touch!<br>
+  If you have a<br>
+  project that you<br>
+  think I could<br>
   help with, hit me up.
   </div>
   <div class="stretch home-section__email">
