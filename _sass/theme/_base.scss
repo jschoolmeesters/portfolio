@@ -9,26 +9,24 @@ html {
 body {
   margin: 0;
   background: #E07371;
-  animation: bganimation 30s infinite;
+  animation: bganimation 40s infinite;
   overflow-x: hidden;
 }
 
 @keyframes bganimation {
-  0% {background: #E07371;}
-  12.5% {background: #F5DEB3;}
-  37.5% {background: #7AAE9C;}
-  62.5%{background: #67ABB7;}
-  87.5% {background: #E8D5F1;}
-  100% {background: #E07371;}
+  0% {background: #129EA5;}
+  25% {background: #F28482;}
+  50% {background: #7AAE9C;}
+  75%{background: #F1B555;}
+  100% {background: #129EA5;}
 }
 
 @keyframes coloranimation {
-  0% {color: #E07371;}
-  12.5% {color: #F5DEB3;}
-  37.5% {color: #7AAE9C;}
-  62.5%{color: #67ABB7;}
-  87.5% {color: #E8D5F1;}
-  100% {color: #E07371;}
+  0% {color: #129EA5;}
+  25% {color: #F28482;}
+  50% {color: #7AAE9C;}
+  75%{color: #F1B555;}
+  100% {color: #129EA5;}
 }
 
 * {
