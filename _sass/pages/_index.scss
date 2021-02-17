@@ -5,20 +5,24 @@
   &.desktop {
     height: 0;
     display: none !important;
+    visibility: hidden;
   }
 
   &.mobile {
     display: inline-block !important;
+    visibility: visible;
   }
 }
 
 @media (min-width: 700px) {
   .stretch.desktop {
     display: inline-block !important;
+    visibility: visible;
   }
   .stretch.mobile {
     height: 0;
     display: none !important;
+    visibility: hidden;
   }
 }
 
