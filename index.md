@@ -57,8 +57,8 @@ title: Home
   Let's get in touch!<br>
   If you have a<br>
   project that you<br>
-  think I could<br>
-  help with, hit me up.
+  think I could help<br>
+  with, hit me up.
   </div>
   <div class="stretch home-section__email">
   hello@jordy.nl
