@@ -3,10 +3,15 @@ layout: default
 title: Home
 ---
 
-<div class="stretch-wrapper rellax" data-rellax-speed="8">
+<div class="stretch-wrapper rellax" data-rellax-speed="10">
   <div class="stretch">
   Hello! I'm Jordy.<br>I have a passion for<br> web security, and enjoy<br>solving difficult problems<br>using creative strategies.
   </div>
+</div>
+
+<div class="wrapper rellax" data-rellax-speed="6">
+  <p class="text">WELCOME! FEEL FREE TO LOOK AROUND...&nbsp;</p>
+  <p class="text">WELCOME! FEEL FREE TO LOOK AROUND...&nbsp;</p>
 </div>
 
 <div class="home-section rellax" data-rellax-speed="4">
@@ -25,17 +30,30 @@ title: Home
   <h2>What's my background?</h2>
   </div>
   <div class="home-section__paragraph">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae magna sed sem tempus vulputate. Phasellus dictum imperdiet consequat. Donec mollis libero ac pretium congue. Proin facilisis tellus turpis, ut eleifend massa lobortis non. Pellentesque tortor metus, elementum eu facilisis ut, vulputate venenatis mi.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae magna sed sem tempus vulputate. Phasellus dictum imperdiet consequat. Donec mollis libero ac pretium congue.</p>
+    <p>Proin facilisis tellus turpis, ut eleifend massa lobortis non. Pellentesque tortor metus, elementum eu facilisis ut, vulputate venenatis mi.</p>
     <p>Nam at gravida lacus. Fusce a nisi et urna faucibus tristique vitae quis nulla. Proin sed est hendrerit, dapibus velit ut, dignissim purus. Curabitur accumsan erat a condimentum varius. Phasellus ut mi sed orci maximus hendrerit imperdiet ut magna.</p>
+  </div>
+</div>
+
+<div class="stretch-wrapper rellax" data-rellax-speed="0">
+  <div class="stretch">
+  Let's get in touch!<br>
+  If you have a project<br>
+  that you think I could<br>
+  help with, hit me up.
+  </div>
+  <div class="stretch home-section__email">
+  hello@jordy.nl
   </div>
 </div>
 
 <div class="home-section rellax" data-rellax-speed="0">
   <div class="home-section__title">
-  <h2>Let's get in touch!</h2>
+  <h2>Socials</h2>
   </div>
   <div class="home-section__paragraph">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae magna sed sem tempus vulputate. Phasellus dictum imperdiet consequat. Donec mollis libero ac pretium congue. Proin facilisis tellus turpis, ut eleifend massa lobortis non. Pellentesque tortor metus, elementum eu facilisis ut, vulputate venenatis mi.</p>
-    <p>Nam at gravida lacus. Fusce a nisi et urna faucibus tristique vitae quis nulla. Proin sed est hendrerit, dapibus velit ut, dignissim purus. Curabitur accumsan erat a condimentum varius. Phasellus ut mi sed orci maximus hendrerit imperdiet ut magna.</p>
+    <p>You can also find me on <a>LinkedIn</a> or <a>GitHub</a>.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae magna sed sem tempus vulputate. Phasellus dictum imperdiet consequat. Donec mollis libero ac pretium congue. </p>
   </div>
 </div>

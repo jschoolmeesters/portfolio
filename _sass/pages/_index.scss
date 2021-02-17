@@ -1,6 +1,6 @@
 .stretch {
   color: #410807;
-  font-family: 'Epilogue', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .home-section {
@@ -28,6 +28,31 @@
       margin-top: 0;
     }
   }
+  @include e('email') {
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 7rem;
+  }
+}
+
+.wrapper {
+  display: flex;
+  height: 10rem;
+  width: 100vw;
+}
+.text {
+  white-space: nowrap;
+  animation: scroll 13s infinite linear, coloranimation 30s infinite;
+  font-size: 6.5rem;
+  font-weight: 1000;
+  font-family: 'Raleway', sans-serif;
+  -webkit-text-stroke: 2px #410807;
+}
+
+@keyframes scroll {
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 @media (min-width: 1000px) {
@@ -39,9 +64,8 @@
     }
     @include e('paragraph') {
       display: table-cell;
-      width: 30%;
-      padding-right: 10rem;
-      max-width: 20rem;
+      width: 40%;
+      max-width: 5rem;
     }
   }
 }

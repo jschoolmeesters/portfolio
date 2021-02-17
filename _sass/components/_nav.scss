@@ -8,7 +8,38 @@ nav {
   margin-bottom: 1.25rem;
   height: 1.25rem;
 
-  a {
+  a:not(:first-child) {
     margin-left: 2.5rem;
+  }
+
+  a {
+    color: #410807;
+    font-size: $fs-s;
+    text-decoration: none;
+    font-weight: 400;
+
+    &.desktop {
+      display: none;
+    }
+
+    &.current {
+      color: #410807;
+      font-weight: bold;
+    }
+
+    &.contact {
+      background: #410807;
+      padding: 0.4rem 0.8rem;
+      border-radius: 0 0 1.2rem 1.2rem;
+      animation: coloranimation 30s infinite;
+      float: right;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (min-width: 700px) {
+  a.desktop {
+    display: inline-block !important;
   }
 }

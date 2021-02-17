@@ -1,7 +1,8 @@
 html {
   font-size: 100%;
   color: $clr-grey-0;
-  font-family: 'Epilogue', sans-serif;
+  //font-family: 'Epilogue', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -9,6 +10,7 @@ body {
   margin: 0;
   background: #E07371;
   animation: bganimation 30s infinite;
+  overflow-x: hidden;
 }
 
 @keyframes bganimation {
@@ -33,39 +35,21 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
-  font-weight: 400;
-}
-
 h2 {
-  font-weight: 400;
   font-size: $fs-l;
   color: #410807;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
 }
 
 p {
   font-size: $fs-s;
   color: #410807;
-  font-size: $fs-s;
 }
 
 a {
   color: #410807;
   font-size: $fs-s;
   text-decoration: none;
-
-  &.current {
-    color: #410807;
-    font-weight: bold;
-  }
-
-  &.contact {
-    background: #410807;
-    padding: 0.6rem 0.8rem;
-    border-radius: 0 0 1.2rem 1.2rem;
-    animation: coloranimation 30s infinite;
-    float: right;
-    margin-right: 2.5rem;
-    font-weight: bold;
-  }
+  font-weight: 600;
 }
